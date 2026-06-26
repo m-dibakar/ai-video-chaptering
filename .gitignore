@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# Conda
+*.conda
+
+# Models (large files, download at runtime)
+backend/whisper-small/
+backend/uploads/
+
+# Node
+frontend/node_modules/
+frontend/build/
+
+# Videos
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.webm
+
+# OS
+.DS_Store
+Token.txt
+# Pycache
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+
+# Test videos
+backend/test_video*.mp4
